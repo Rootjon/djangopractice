@@ -133,8 +133,9 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT =  BASE_DIR / 'media/'
-AWS_ACCESS_KEY_ID = 'AKIARVGPJVYVFNJAGMRS'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AKIARVGPJVYVACD7DCFZ'
+AWS_SECRET_ACCESS_KEY = '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'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
