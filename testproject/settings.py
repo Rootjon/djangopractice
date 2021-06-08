@@ -44,7 +44,11 @@ INSTALLED_APPS = [
     'album',
     'blog',
     'storages',
+    'taggit',
 ]
+
+
+INSTALLED_APPS += ('django_summernote', )
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -142,5 +146,7 @@ AWS_SECRET_ACCESS_KEY = 'zUZdgEyC2wteNYMPvWL+cixMcthqi53S06xoxKd8'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 django_heroku.settings(locals())
